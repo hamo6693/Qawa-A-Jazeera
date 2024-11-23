@@ -10795,12 +10795,51 @@ footer .copyright-link:hover, footer .copyright-link:focus {
     border-bottom: none !important;
     padding-right: 5px;
   }
+
+  #carouselExampleControlsE {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
-  .carousel-top .carousel .carousel-caption h1 {
-    font-size: 30px;
+  #latest-company-projects {
+    display: none;
   }
+
+  #carouselExampleControlsE {
+    display: block;
+    margin: 35px;
+  }
+
+  .carousel-control-prev {
+    bottom: 35%;
+  }
+
+  .carousel-control-next {
+    bottom: 35%;
+  }
+
+  .carousel-top .carousel .carousel-item img {
+    height: 360px;
+  }
+
   .carousel-top .carousel .carousel-caption h4 {
-    font-size: 20px;
+    font-size: 11px !important;
+  }
+
+  .carousel-top .carousel .carousel-caption h1 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .custom-btn {
+    padding: 2px 5px;
+    color: #FF7766 !important;
+    border: 1px solid #FF7766 !important;
+    margin-top: 12px;
+    font-size: 10px;
+  }
+
+  .who-are-we .custom-paragraph {
+    font-size: 10px;
   }
 }
