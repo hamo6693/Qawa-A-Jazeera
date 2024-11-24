@@ -10361,7 +10361,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 .banner .overlay {
   position: absolute;
-  background-color: rgba(65, 155, 155, 0.5);
+  background-color: rgba(70, 88, 169, 0.5);
   top: 0;
   right: 0;
   height: 100%;
@@ -10387,7 +10387,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 .our-works .custom-btn-2:hover, .our-works .custom-btn-2:focus {
   color: white;
-  background-color: #FF7766;
+  background-color: #6281DC;
   border: none;
 }
 
@@ -10407,10 +10407,14 @@ a.text-dark:focus, a.text-dark:hover {
 
 .project-details .card .card-body .card-title {
   font-weight: 800;
-  color: #FF7766;
+  color: #6281DC;
 }
 
 @media (max-width: 576px) {
+  .banner {
+    margin-top: 10px;
+  }
+
   .project-details .thumb {
     margin-left: 15px;
     margin-right: 15px;
@@ -10437,7 +10441,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .form-control:focus {
-  border-color: #FF7766 !important;
+  border-color: #6281DC !important;
   box-shadow: none !important;
 }
 
@@ -10446,7 +10450,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 .posts-details .card .card-body .card-title {
   font-weight: 800;
-  color: #FF7766;
+  color: #6281DC;
 }
 
 .one-social {
@@ -10489,7 +10493,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .our-team .our-team-line {
   width: 10%;
-  border-top-color: #FF7766;
+  border-top-color: #6281DC;
 }
 .our-team .card-text {
   font-size: 14px;
@@ -10503,8 +10507,24 @@ a.text-dark:focus, a.text-dark:hover {
   margin-top: 25px;
 }
 
+@media (max-width: 576px) {
+  .carousel-top {
+    margin-top: 10px;
+  }
+}
 .banner-contact #banner-img {
   background-image: url(../images/banner-contact.jpg);
+}
+.banner-contact .overlay {
+  position: absolute;
+  background-color: rgba(16, 54, 223, 0.43);
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }
 
 a.whatsapp-social :hover {
@@ -10512,7 +10532,7 @@ a.whatsapp-social :hover {
 }
 
 .contact-us #contact-info svg {
-  color: #FF7766;
+  color: #6281DC;
   margin-left: 5px;
 }
 .contact-us input[type=email] {
@@ -10520,8 +10540,39 @@ a.whatsapp-social :hover {
 }
 
 @media (max-width: 767px) {
+  .carousel-top {
+    margin-top: 10px;
+  }
+
   .contact-header {
     margin-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .banner-contact #banner-img {
+    background-size: cover;
+  }
+
+  .carousel-top {
+    margin-top: 10px;
+  }
+
+  #contact-info {
+    font-size: 11px;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+
+  a {
+    width: 36px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 }
 @font-face {
@@ -10549,24 +10600,24 @@ body {
   transition-duration: 0.5s;
 }
 .top-menu .navbar .navbar-nav li > a:hover {
-  color: #FF7766 !important;
+  color: #6281DC !important;
   background-color: #EEE;
-  border-bottom: 1px solid #FF7766;
+  border-bottom: 1px solid #6281DC;
 }
 .top-menu .navbar .navbar-nav .active a {
-  color: #FF7766 !important;
-  border-bottom: 1px solid #FF7766;
+  color: #6281DC !important;
+  border-bottom: 1px solid #6281DC;
 }
 
 .carousel-top .row {
   display: block !important;
 }
 .carousel-top .carousel .carousel-item img {
-  height: 450px;
+  height: 100%;
 }
 .carousel-top .carousel .carousel-item .overlay {
   position: absolute;
-  background-color: rgba(65, 155, 155, 0.5);
+  background-color: rgba(70, 88, 169, 0.5);
   top: 0;
   right: 0;
   left: 0;
@@ -10585,7 +10636,7 @@ body {
   margin: 20px 5px 0px 0px;
 }
 .carousel-top .carousel .carousel-indicators li.active {
-  background-color: #FF7766;
+  background-color: #6281DC;
 }
 .carousel-top .carousel .carousel-caption h1 {
   font-weight: bold;
@@ -10595,17 +10646,19 @@ body {
 .carousel-top .carousel .carousel-caption h4 {
   width: 60%;
   color: #EEE;
+  margin-top: 30px;
+  line-height: 1.4;
 }
 
 .custom-btn {
   padding: 10px 20px;
-  color: #FF7766 !important;
-  border: 1px solid #FF7766 !important;
+  color: #6281DC !important;
+  border: 1px solid #6281DC !important;
   font-weight: bold !important;
 }
 .custom-btn:hover, .custom-btn:focus {
   color: #EEE !important;
-  background-color: #FF7766 !important;
+  background-color: #6281DC !important;
   border: 1px solid #EEE !important;
 }
 
@@ -10614,24 +10667,24 @@ body {
   font-size: 1.1rem;
 }
 .who-are-we .company-name {
-  color: #FF7766;
+  color: #6281DC;
 }
 
 .custom-btn-main {
   padding: 15px;
-  background-color: #FF7766 !important;
+  background-color: #6281DC !important;
   color: white;
   font-weight: bold;
   width: 120px;
 }
 .custom-btn-main:hover {
-  color: #FF7766;
+  color: #6281DC;
   background-color: #FFF !important;
-  border: 1px solid #FF7766;
+  border: 1px solid #6281DC;
 }
 
 .latest-projects {
-  background-color: #FFFFCC;
+  background-color: #3e5fca4f;
 }
 .latest-projects #latest-company-projects {
   width: 80%;
@@ -10707,7 +10760,7 @@ body {
 }
 
 .clients {
-  background-color: #419B9B;
+  background-color: #4D608e;
 }
 
 .latest-posts .card-body {
@@ -10787,7 +10840,20 @@ footer .copyright-link:hover, footer .copyright-link:focus {
   color: #EEE;
 }
 
+@media (max-width: 1400px) {
+  #client-company-E {
+    display: none;
+  }
+
+  #carouselExampleControlsE {
+    display: none;
+  }
+}
 @media (max-width: 991px) {
+  #client-company-E {
+    display: none;
+  }
+
   .top-menu .navbar {
     padding: 0px 20px !important;
   }
@@ -10800,14 +10866,32 @@ footer .copyright-link:hover, footer .copyright-link:focus {
     display: none;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .card img {
+    height: 278px !important;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
   #latest-company-projects {
     display: none;
   }
 
   #carouselExampleControlsE {
     display: block;
-    margin: 35px;
+    margin: 100px;
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+
+  #client-company-E {
+    display: block;
+  }
+
+  #client-company {
+    display: none !important;
   }
 
   .carousel-control-prev {
@@ -10833,13 +10917,104 @@ footer .copyright-link:hover, footer .copyright-link:focus {
 
   .custom-btn {
     padding: 2px 5px;
-    color: #FF7766 !important;
-    border: 1px solid #FF7766 !important;
+    color: #6281DC !important;
+    border: 1px solid #6281DC !important;
     margin-top: 12px;
     font-size: 10px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
+  .custom-btn-main {
+    padding: 5px;
+    background-color: #6281DC !important;
+    color: white;
+    font-weight: bold;
+    width: 67px;
+    font-size: 12px;
+  }
+
+  .who-are-we .custom-paragraph {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
   .who-are-we .custom-paragraph {
     font-size: 10px;
+  }
+
+  .custom-btn {
+    padding: 7px 0px;
+    color: #6281DC !important;
+    border: 1px solid #6281DC !important;
+    margin-top: 12px;
+    font-size: 10px;
+    width: 54px;
+    height: 31px;
+  }
+
+  .carousel-top {
+    margin-top: 10px;
+  }
+
+  .carousel-control-prev {
+    top: 33%;
+  }
+
+  .carousel-control-next {
+    top: 33%;
+  }
+
+  #client-company {
+    display: none;
+  }
+
+  #client-company-E {
+    display: block;
+  }
+
+  nav a {
+    margin: 0 auto;
+  }
+  nav ul {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  #carouselExampleControlsE {
+    margin: 50px;
+    margin-bottom: -24px;
+    margin-top: 15px;
+  }
+
+  .custom-btn-main {
+    padding: 6px 10px 20px 8px;
+    font-size: 13px;
+    width: 86px;
+    height: 33px;
+  }
+
+  .card-title {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  footer h2 {
+    font-size: 16px;
+  }
+
+  .custom-btn-main {
+    font-size: 10px;
+    width: 70px;
+    padding: 9px;
   }
 }

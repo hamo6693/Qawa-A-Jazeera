@@ -2,6 +2,18 @@
     #banner-img {
         background-image: url(../images/banner-contact.jpg);
     }
+    .overlay {
+        position: absolute;
+        background-color: rgb(16 54 223 / 43%);
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+   
 }
 
 a.whatsapp-social{
@@ -23,7 +35,32 @@ a.whatsapp-social{
 }
 
 @media (max-width: 767px) {
+    .carousel-top{
+        margin-top: 10px;
+    }
     .contact-header {
         margin-top: 50px;
+    }
+}
+@media (max-width:576px) {
+    .banner-contact #banner-img{
+        background-size: cover;
+    }
+    .carousel-top{
+        margin-top: 10px;
+    }
+    #contact-info{
+        font-size: 11px;
+    }
+    h5{
+        font-size: 13px;
+    }
+    a{
+        width: 36px;
+    height: 30px;
+    font-size: 13px;
+    }
+    h3{
+        font-size: 15px;
     }
 }
